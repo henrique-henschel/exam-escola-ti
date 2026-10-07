@@ -34,7 +34,9 @@ Depois de encerrado ou cancelado, o bilhete não pode retornar ao estado aberto 
 
 Para os mesmos dados de entrada e os mesmos parâmetros da variante, a API deve produzir o mesmo resultado.
 
-Regras de cobrança, arredondamento, tolerância, teto diário e cálculo de relatórios devem ser determinísticas e explicitamente especificadas.
+Regras de cobrança, arredondamento, tolerância, teto diário e cálculo de relatórios devem ser determinísticas e explicitamente documentadas quando definidas pelo contrato ou por material oficial.
+
+Quando existir uma ambiguidade não resolvida pelo contrato, ela deve ser registrada como decisão técnica, sem ser apresentada como se fosse uma regra contratual.
 
 ### Regra 6 — Especificação não é implementação
 
